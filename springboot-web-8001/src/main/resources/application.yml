@@ -1,0 +1,21 @@
+server:
+  port: 8001
+#  tomcat:
+#    uri-encoding: utf-8
+  
+ # servlet:
+  #  context-path: /jrj # 这个是加访问路径
+    
+spring:
+  messages:
+    basename: i18n.login #这个是设置国际化的基础名
+
+  thymeleaf:
+    cache: false # 把模板缓存去除掉
+  mvc:
+    date-format: yyyy-mm-dd
+
+  
+  
+
+ 

@@ -1,0 +1,9 @@
+版本为1.5.10的springboot的jdbc的datasources：
+class org.apache.tomcat.jdbc.pool.DataSource
+ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@62a4417]]
+
+
+
+而2.0.3的datasource是(jdbc)：
+class com.zaxxer.hikari.HikariDataSource
+HikariProxyConnection@1713129148 wrapping com.mysql.jdbc.JDBC4Connection@37864b77
